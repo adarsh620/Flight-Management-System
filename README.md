@@ -33,15 +33,14 @@ The Flight Management System is a RESTful Web Service built using Spring Boot. I
 Configure Database
 
 Update the application.properties or application.yml file with your database connection details.
-properties
-Copy code
+
 spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 
 
-**Build the Project**
+Build the Project
 mvn clean install
 
-**Run the Application**
+Run the Application
 mvn spring-boot:run
